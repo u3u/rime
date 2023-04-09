@@ -1,0 +1,30 @@
+{
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/.git": true,
+    "**/.hg": true,
+    "**/.svn": true,
+    "**/CVS": true,
+    "**/Thumbs.db": true,
+    "*.gram": true,
+    "*.md": true,
+    "*.mjs": true,
+    "*.userdb": true,
+    "*dict*": true,
+    ".git*": true,
+    ".nvmrc": true,
+    "build": true,
+    "double*": true,
+    "liangfen*": true,
+    "melt_eng*": true,
+    "node_modules": true,
+    "opencc": true,
+    "others": true,
+    "package.json": true,
+    "pnpm-lock.yaml": true,
+    "rime-ice": true,
+    "rime.lua": true,
+    "symbols*": true,
+    "user.yaml": true
+  }
+}
