@@ -6,7 +6,6 @@
 
 - 一键部署配置，无心智负担使用
 - 内置实用[命令](#命令说明)，方便你管理配置
-- 一键同步更新 [rime-ice](https://github.com/iDvel/rime-ice) 配置
 - 仅包含基于 [rime-ice](https://github.com/iDvel/rime-ice) 修改过的自定义配置补丁，不用担心更新配置被覆盖
 
 <details>
@@ -52,25 +51,25 @@ brew install pnpm
 
 ## 使用步骤
 
-1. 备份你的配置
+备份你的配置
 
 ```sh
 mv ~/Library/Rime ~/Library/Rime.bak
 ```
 
-2. 将该仓库克隆到 `~/Library/Rime` 目录
+将该仓库克隆到 `~/Library/Rime` 目录
 
 ```sh
 git clone --recurse-submodules https://github.com/u3u/rime.git ~/Library/Rime
 ```
 
-3. 进入 `~/Library/Rime` 目录，然后执行 `pnpm i` 命令，这会将 [rime-ice](https://github.com/iDvel/rime-ice) 子模块中的文件创建符号链接到 `Rime` 目录
+进入 `~/Library/Rime` 目录，然后执行 `pnpm i` 命令，这会将 [rime-ice](https://github.com/iDvel/rime-ice) 子模块中的文件创建符号链接到 `Rime` 目录
 
 ```sh
 cd ~/Library/Rime && pnpm i
 ```
 
-4. 执行 `pnpm reload` 命令重新部署，你也可以点击菜单栏【ㄓ】-【重新部署】，然后就可以愉快的使用啦！🥳
+执行 `pnpm reload` 命令重新部署，你也可以点击菜单栏【ㄓ】-【重新部署】，然后就可以愉快的使用啦！🥳
 
 ## 修改配置
 
@@ -83,8 +82,7 @@ cd ~/Library/Rime && pnpm i
 code ~/Library/Rime
 ```
 
-> 注：每次修改配置后都需要重新部署 Rime 输入法才能生效
-> 修改配置后执行 `pnpm reload` 命令即可重新部署
+> 注：每次修改配置后都需要重新部署 Rime 输入法才能生效，修改配置后执行 `pnpm reload` 命令即可重新部署
 
 ## 同步
 
@@ -97,7 +95,8 @@ installation_id: 'macos-rime-ice'
 sync_dir: '/Users/:name/Library/Mobile Documents/com~apple~CloudDocs/RimeSync'
 ```
 
-然后执行 `pnpm sync` 命令将本地配置和词库同步到 `iCloud` 中的 `RimeSync` 目录，你也可以点击菜单栏【ㄓ】-【同步用户数据】
+然后执行 `pnpm sync` 命令将本地配置和词库同步到 `iCloud` 中的 `RimeSync` 目录  
+你也可以点击菜单栏【ㄓ】-【同步用户数据】
 
 ## 皮肤
 
@@ -128,10 +127,10 @@ git push -u origin main
 
 你可以在 `~/Library/Rime` 目录使用以下命令：
 
-- `pnpm reload`: 重新部署 Rime 输入法
-- `pnpm sync`: 将用户配置同步到 `sync_dir`
-- `pnpm run update`: 将 [rime-ice](https://github.com/iDvel/rime-ice) 的最新配置同步到本地
-- `pnpm run link`: 将 [rime-ice](https://github.com/iDvel/rime-ice) 子模块中的文件创建符号链接到 `Rime` 目录（执行 `pnpm i` 和 `pnpm run update` 后会自动运行）
+- [`pnpm reload`](package.json): 重新部署 Rime 输入法
+- [`pnpm sync`](package.json): 将用户配置同步到 `sync_dir`
+- [`pnpm run update`](package.json): 将 [rime-ice](https://github.com/iDvel/rime-ice) 的最新配置同步到本地
+- [`pnpm run link`](package.json): 将 [rime-ice](https://github.com/iDvel/rime-ice) 子模块中的文件创建符号链接到 `Rime` 目录（执行 `pnpm i` 和 `pnpm run update` 后会自动运行）
 
 ## 参考
 
