@@ -71,7 +71,7 @@ git clone --recurse-submodules https://github.com/u3u/rime.git ~/Library/Rime
 cd ~/Library/Rime && pnpm i
 ```
 
-执行 `pnpm reload` 命令重新部署，你也可以点击菜单栏【ㄓ】-【重新部署】，然后就可以愉快的使用啦！🥳
+执行 [`pnpm reload`](#命令说明) 命令重新部署，你也可以点击菜单栏【ㄓ】-【重新部署】，然后就可以愉快的使用啦！🥳
 
 ## 修改配置
 
@@ -86,7 +86,7 @@ code ~/Library/Rime
 
 <img width="1363" alt="image" src="https://user-images.githubusercontent.com/20062482/233145736-546bc01a-ca88-4aad-a53b-fddc93b63d92.png">
 
-> 注：每次修改配置后都需要重新部署 Rime 输入法才能生效，修改配置后执行 `pnpm reload` 命令即可重新部署
+> 注：每次修改配置后都需要重新部署 Rime 输入法才能生效，修改配置后执行 [`pnpm reload`](#命令说明) 命令即可重新部署
 
 ## 同步
 
@@ -99,7 +99,7 @@ installation_id: 'macos-rime-ice'
 sync_dir: '/Users/:name/Library/Mobile Documents/com~apple~CloudDocs/RimeSync'
 ```
 
-然后执行 `pnpm sync` 命令将本地配置和词库同步到 `iCloud` 中的 `RimeSync` 目录  
+然后执行 [`pnpm sync`](#命令说明) 命令将本地配置和词库同步到 `iCloud` 中的 `RimeSync` 目录  
 你也可以点击菜单栏【ㄓ】-【同步用户数据】
 
 ## 皮肤
@@ -112,7 +112,7 @@ sync_dir: '/Users/:name/Library/Mobile Documents/com~apple~CloudDocs/RimeSync'
 
 ## 更新 [rime-ice](https://github.com/iDvel/rime-ice) 配置
 
-你可以使用 `pnpm run update` 命令更新 [rime-ice](https://github.com/iDvel/rime-ice) 远程最新配置，然后使用 `pnpm reload` 命令重新部署 Rime 输入法
+你可以使用 [`pnpm run update`](#命令说明) 命令更新 [rime-ice](https://github.com/iDvel/rime-ice) 远程最新配置，然后使用 [`pnpm reload`](#命令说明) 命令重新部署 Rime 输入法
 
 ```sh
 pnpm run update && pnpm reload
