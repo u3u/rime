@@ -8,6 +8,8 @@
 - 内置实用[命令](#命令说明)，方便你管理配置
 - 仅包含基于 [rime-ice](https://github.com/iDvel/rime-ice) 修改过的自定义配置补丁，不用担心更新配置被覆盖
 
+<img width="408" alt="image" src="https://user-images.githubusercontent.com/20062482/233144309-8ef002fa-102f-4ff4-9491-779a3736836a.png">
+
 <details>
 <summary>如果你没有 Node.js 和 pnpm 请先点击此处查看安装说明</summary>
 <br>
@@ -81,6 +83,8 @@ cd ~/Library/Rime && pnpm i
 # 使用 VSCode 打开 Rime 配置目录
 code ~/Library/Rime
 ```
+
+<img width="1363" alt="image" src="https://user-images.githubusercontent.com/20062482/233145736-546bc01a-ca88-4aad-a53b-fddc93b63d92.png">
 
 > 注：每次修改配置后都需要重新部署 Rime 输入法才能生效，修改配置后执行 `pnpm reload` 命令即可重新部署
 
