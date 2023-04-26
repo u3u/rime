@@ -4,6 +4,8 @@ patch:
   # 正常情况： 输入 rug 得到 「1.rug 2.如果 …… 」
   # 降低之后： 输入 rug 得到 「1.如果 2.rug …… 」
   reduce_english_filter/words/+: [
+      but, # 不同
+      mad, # 妈的
       chad, # 差点
       put, # 普通
       hans, # 函数
