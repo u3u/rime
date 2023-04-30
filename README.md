@@ -115,10 +115,7 @@ sync_dir: '/Users/:name/Library/Mobile Documents/com~apple~CloudDocs/RimeSync'
 
 ## 中英文切换方案
 
-我使用 [Karabiner-Elements](https://karabiner-elements.pqrs.org/) 设置快捷键直接切换 ABC 输入法，不使用输入法自带的切换功能，该方案所有输入法通用  
-另一个原因我如果没记错的话是很久以前系统 Bug，使用系统设置的 <kbd>⇪ CapsLock</kbd> 切换 ABC 功能经常出现中英文状态随机错乱
-
-> 如果系统 Bug 已经修复了，你嫌麻烦的话也可以直接使用系统功能
+我使用 [Karabiner-Elements](https://karabiner-elements.pqrs.org/) 设置快捷键直接切换 ABC 输入法，禁用输入法自带的切换功能，该方案所有输入法通用。另一个原因我如果没记错的话是很久以前系统 Bug，使用系统设置的 <kbd>⇪ CapsLock</kbd> 切换 ABC 功能经常出现中英文状态随机错乱。如果系统 Bug 已经修复了，你嫌麻烦的话也可以直接使用系统功能
 
 导入方案配置：
 
