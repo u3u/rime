@@ -60,7 +60,7 @@ brew install pnpm
 brew install --cask squirrel
 ```
 
-> 手动安装：https://rime.im
+手动安装：https://rime.im
 
 ## 使用步骤
 
@@ -135,9 +135,12 @@ sync_dir: '/Users/:name/Library/Mobile Documents/com~apple~CloudDocs/RimeSync'
 > 注：仅单独按下键时触发，不影响原组合键功能，请放心使用
 
 💡 推荐使用左 <kbd>⇪ CapsLock</kbd> / <kbd>⌃ Control</kbd> 键切换中英文输入法  
-❌ 我不推荐左 <kbd>⇧ Shift</kbd> 键切换，因为 <kbd>⇧ Shift</kbd> 键是用来按住时输入大写字母的，方便大小写混合输入，容易连按造成中英文误切换
+❌ 我不推荐左 <kbd>⇧ Shift</kbd> 键切换，因为 <kbd>⇧ Shift</kbd> 键是用来按住时输入大写字母的，容易连按造成中英文误切换
 
-导入方案后点击启用，这些方案只会将按键映射到一个不存在的 <kbd>F17</kbd>，你还需要在系统设置 -> 键盘 -> 快捷键中设置切换输入法的快捷键
+<img width="640" src="https://user-images.githubusercontent.com/20062482/235362555-849ae1fe-bd6f-43bb-8e8a-d86ac1b5b469.png">
+
+导入方案后点击启用，这些方案只会将按键映射到一个不存在的 <kbd>F17</kbd>  
+你还需要在系统设置 -> 键盘 -> 快捷键中设置切换输入法的快捷键
 
 <img width="640" src="https://user-images.githubusercontent.com/20062482/235359511-857f3f07-192a-486f-b8a3-6fe6772ee09f.png">
 
