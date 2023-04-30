@@ -15,6 +15,7 @@
     ".nvmrc": true,
     "build": true,
     "double*": true,
+    "ke-complex-modifications": true,
     "liangfen*": true,
     "melt_eng*": true,
     "node_modules": true,

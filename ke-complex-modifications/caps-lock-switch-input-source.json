@@ -1,0 +1,16 @@
+{
+  "rules": [
+    {
+      "description": "Post f17 if caps_lock is pressed alone.",
+      "manipulators": [
+        {
+          "from": { "key_code": "caps_lock", "modifiers": { "optional": ["any"] } },
+          "to": [{ "key_code": "caps_lock" }],
+          "to_if_alone": [{ "key_code": "f17" }],
+          "type": "basic"
+        }
+      ]
+    }
+  ],
+  "title": "Capslock switch input source"
+}
