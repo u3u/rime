@@ -143,7 +143,7 @@ sync_dir: '/Users/:name/Library/Mobile Documents/com~apple~CloudDocs/RimeSync'
 
 由于我现在使用 [HHKB](https://www.hhkeyboard.com/uk/) 键盘，所以我使用左 <kbd>⌃ Control</kbd> 代替 <kbd>⇪ CapsLock</kbd> 切换中英文方案
 
-- [导入外接 HHKB 键盘专属方案](<(https://spx.vercel.app/1/karabiner%3A%2F%2Fkarabiner%2Fassets%2Fcomplex_modifications%2Fimport%3Furl%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2Fu3u%2Frime%2Fmain%2Fke-complex-modifications%2Fleft-control-switch-input-source-with-hhkb.json)>) [[查看JSON]](./ke-complex-modifications/left-control-switch-input-source-with-hhkb.json)  
+- [导入外接 HHKB 键盘专属方案](https://spx.vercel.app/1/karabiner%3A%2F%2Fkarabiner%2Fassets%2Fcomplex_modifications%2Fimport%3Furl%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2Fu3u%2Frime%2Fmain%2Fke-complex-modifications%2Fleft-control-switch-input-source-with-hhkb.json) [[查看JSON]](./ke-complex-modifications/left-control-switch-input-source-with-hhkb.json)  
   苹果内置键盘使用 <kbd>⇪ CapsLock</kbd> 切换中英文，HHKB 使用左 <kbd>⌃ Control</kbd> 切换中英文  
   `karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/u3u/rime/main/ke-complex-modifications/left-control-switch-input-source-with-hhkb.json`
 
