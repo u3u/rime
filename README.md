@@ -122,11 +122,11 @@ sync_dir: '/Users/:name/Library/Mobile Documents/com~apple~CloudDocs/RimeSync'
 > 由于 GitHub Markdown 限制 URL Scheme 链接，我使用 [`spx`](https://github.com/inlife/spx) 服务代理  
 > 如果点击以下链接无法拉起 App 自动导入，请手动复制链接打开
 
-- [<kbd>⇪ CapsLock</kbd> 切换中英文](https://spx.vercel.app/1/karabiner%3A%2F%2Fkarabiner%2Fassets%2Fcomplex_modifications%2Fimport%3Furl%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2Fu3u%2Frime%2Fmain%2Fke-complex-modifications%2Fcaps-lock-switch-input-source.json)  
+- [导入 <kbd>⇪ CapsLock</kbd> 切换中英文](https://spx.vercel.app/1/karabiner%3A%2F%2Fkarabiner%2Fassets%2Fcomplex_modifications%2Fimport%3Furl%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2Fu3u%2Frime%2Fmain%2Fke-complex-modifications%2Fcaps-lock-switch-input-source.json) [[查看JSON]](./ke-complex-modifications/caps-lock-switch-input-source.json)  
   `karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/u3u/rime/main/ke-complex-modifications/caps-lock-switch-input-source.json`
-- [左 <kbd>⌃ Control</kbd> 切换中英文](https://spx.vercel.app/1/karabiner%3A%2F%2Fkarabiner%2Fassets%2Fcomplex_modifications%2Fimport%3Furl%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2Fu3u%2Frime%2Fmain%2Fke-complex-modifications%2Fleft-control-switch-input-source.json)  
+- [导入左 <kbd>⌃ Control</kbd> 切换中英文](https://spx.vercel.app/1/karabiner%3A%2F%2Fkarabiner%2Fassets%2Fcomplex_modifications%2Fimport%3Furl%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2Fu3u%2Frime%2Fmain%2Fke-complex-modifications%2Fleft-control-switch-input-source.json) [[查看JSON]](./ke-complex-modifications/left-control-switch-input-source.json)  
   `karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/u3u/rime/main/ke-complex-modifications/left-control-switch-input-source.json`
-- [左 <kbd>⇧ Shift</kbd> 切换中英文](https://spx.vercel.app/1/karabiner%3A%2F%2Fkarabiner%2Fassets%2Fcomplex_modifications%2Fimport%3Furl%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2Fu3u%2Frime%2Fmain%2Fke-complex-modifications%2Fleft-shift-switch-input-source.json)  
+- [导入左 <kbd>⇧ Shift</kbd> 切换中英文](https://spx.vercel.app/1/karabiner%3A%2F%2Fkarabiner%2Fassets%2Fcomplex_modifications%2Fimport%3Furl%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2Fu3u%2Frime%2Fmain%2Fke-complex-modifications%2Fleft-shift-switch-input-source.json) [[查看JSON]](./ke-complex-modifications/left-shift-switch-input-source.json)  
   `karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/u3u/rime/main/ke-complex-modifications/left-shift-switch-input-source.json`
 
 > 注：仅单独按下键时触发，不影响原组合键功能，请放心使用
@@ -142,6 +142,10 @@ sync_dir: '/Users/:name/Library/Mobile Documents/com~apple~CloudDocs/RimeSync'
 <img width="640" src="https://user-images.githubusercontent.com/20062482/235359511-857f3f07-192a-486f-b8a3-6fe6772ee09f.png">
 
 由于我现在使用 [HHKB](https://www.hhkeyboard.com/uk/) 键盘，所以我使用左 <kbd>⌃ Control</kbd> 代替 <kbd>⇪ CapsLock</kbd> 切换中英文方案
+
+- [导入外接 HHKB 键盘专属方案](<(https://spx.vercel.app/1/karabiner%3A%2F%2Fkarabiner%2Fassets%2Fcomplex_modifications%2Fimport%3Furl%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2Fu3u%2Frime%2Fmain%2Fke-complex-modifications%2Fleft-control-switch-input-source-with-hhkb.json)>) [[查看JSON]](./ke-complex-modifications/left-control-switch-input-source-with-hhkb.json)  
+  苹果内置键盘使用 <kbd>⇪ CapsLock</kbd> 切换中英文，HHKB 使用左 <kbd>⌃ Control</kbd> 切换中英文  
+  `karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/u3u/rime/main/ke-complex-modifications/left-control-switch-input-source-with-hhkb.json`
 
 <img width="640" src="https://user-images.githubusercontent.com/20062482/235359544-cffb7e9d-a268-4bf3-84a8-d385b8a1c93e.png">
 
