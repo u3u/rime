@@ -14,7 +14,6 @@ melt_eng*
 node_modules
 opencc
 others
-rime-ice
 rime.lua
 rime_ice.schema.yaml
 squirrel.yaml
