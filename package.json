@@ -8,7 +8,7 @@
     "reload": "pnpm squirrel --reload",
     "squirrel": "/Library/Input\\ Methods/Squirrel.app/Contents/MacOS/Squirrel",
     "sync": "pnpm squirrel --sync",
-    "update": "cd rime-ice && git pull --rebase && pnpm run link"
+    "update": "git submodule update --remote && pnpm run link"
   },
   "devDependencies": {
     "chalk": "^5.2.0",
