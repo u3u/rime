@@ -17,6 +17,7 @@
     "double*": true,
     "ke-complex-modifications": true,
     "liangfen*": true,
+    "lua": true,
     "melt_eng*": true,
     "node_modules": true,
     "opencc": true,

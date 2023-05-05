@@ -10,6 +10,7 @@ default.yaml
 double*
 installation.yaml
 liangfen*
+lua
 melt_eng*
 node_modules
 opencc

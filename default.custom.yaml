@@ -23,3 +23,13 @@ patch:
       Shift_R: noop # commit_code | commit_text | inline_ascii | clear | noop
       Control_L: noop # commit_code | commit_text | inline_ascii | clear | noop
       Control_R: noop # commit_code | commit_text | inline_ascii | clear | noop
+
+
+  # 翻页 , .
+  # key_binder/bindings/+:
+  #   - { when: paging, accept: comma, send: Page_Up }
+  #   - { when: has_menu, accept: period, send: Page_Down }
+
+  # 顿号
+  # punctuator/half_shape/+:
+  #   '/': ['/', '、']
