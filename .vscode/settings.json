@@ -1,4 +1,11 @@
 {
+  "explorer.fileNesting.patterns": {
+    "default.custom.yaml": "default*",
+    "double_pinyin.custom.yaml": "double_pinyin*",
+    "package.json": "*.js, *.cjs, *.mjs, .nvmrc, .prettier*, pnpm-lock.yaml",
+    "rime_ice.custom.yaml": "rime_ice*",
+    "squirrel.custom.yaml": "squirrel*, installation.yaml"
+  },
   "files.exclude": {
     "**/.DS_Store": true,
     "**/.git": true,
@@ -8,11 +15,9 @@
     "**/Thumbs.db": true,
     "*.gram": true,
     "*.md": true,
-    "*.mjs": true,
     "*.userdb": true,
     "*dict*": true,
     ".git*": true,
-    ".nvmrc": true,
     "build": true,
     "double*": true,
     "ke-complex-modifications": true,
@@ -22,8 +27,6 @@
     "node_modules": true,
     "opencc": true,
     "others": true,
-    "package.json": true,
-    "pnpm-lock.yaml": true,
     "rime-ice": true,
     "rime.lua": true,
     "symbols*": true,

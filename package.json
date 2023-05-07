@@ -1,6 +1,9 @@
 {
   "name": "@u3u/rime",
   "private": true,
+  "bin": {
+    "symlinks": "./symlinks.mjs"
+  },
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "link": "node symlinks.mjs",
@@ -11,7 +14,11 @@
     "update": "git submodule update --remote && pnpm run link"
   },
   "devDependencies": {
+    "@u3u/eslint-config": "^1.4.0",
+    "@u3u/rime": "link:",
+    "cac": "^6.7.14",
     "chalk": "^5.2.0",
+    "eslint": "^8.40.0",
     "globby": "^13.1.4"
   },
   "packageManager": "pnpm@8.3.0",
