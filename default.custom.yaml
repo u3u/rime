@@ -1,6 +1,10 @@
 patch:
   menu/page_size: 7 # 候选词个数
 
+  # 顿号
+  # punctuator/half_shape/+:
+  #   '/': ['/', '、']
+
   # 中西文切换
   #
   # good_old_caps_lock:
@@ -25,10 +29,33 @@ patch:
       Control_R: noop # commit_code | commit_text | inline_ascii | clear | noop
 
   # 翻页 , .
-  key_binder/bindings/+:
+  key_binder/bindings:
+    # Tab / Shift+Tab 切换光标至下/上一个拼音
+    - { when: composing, accept: Shift+Tab, send: Shift+Left }
+    - { when: composing, accept: Tab, send: Shift+Right }
+
+    # Tab / Shift+Tab 翻页
+    # - { when: has_menu, accept: Shift+Tab, send: Page_Up }
+    # - { when: has_menu, accept: Tab, send: Page_Down }
+
+    # Option/Alt + ←/→ 切换光标至下/上一个拼音
+    - { when: composing, accept: Alt+Left, send: Shift+Left }
+    - { when: composing, accept: Alt+Right, send: Shift+Right }
+
+    # 翻页 - =
+    # - { when: has_menu, accept: minus, send: Page_Up }
+    # - { when: has_menu, accept: equal, send: Page_Down }
+
+    # 翻页 , .
     - { when: paging, accept: comma, send: Page_Up }
     - { when: has_menu, accept: period, send: Page_Down }
 
-  # 顿号
-  # punctuator/half_shape/+:
-  #   '/': ['/', '、']
+    # 翻页 [ ]
+    # - { when: paging, accept: bracketleft, send: Page_Up }
+    # - { when: has_menu, accept: bracketright, send: Page_Down }
+
+    # numbered_mode_switch:
+    - { when: always, accept: Control+Shift+3, toggle: ascii_punct } # 切换中英标点
+    - { when: always, accept: Control+Shift+4, toggle: traditionalization } # 切换简繁
+    - { when: always, accept: Control+Shift+5, toggle: full_shape } # 切换全半角
+
