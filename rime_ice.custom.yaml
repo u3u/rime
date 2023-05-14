@@ -1,4 +1,15 @@
 patch:
+  # https://github.com/iDvel/rime-ice/issues/242
+  # https://github.com/iDvel/rime-ice/pull/249
+  # Ctrl+d , 无视任何输入串强制删除高亮的候选词条(假性删除), 其实只是放到里一个drop_list里, 不让这个候选词显示
+  # Ctrl+j , 当输入串与候选词的编码一致时, 对该词条降频降权, 放到第四候选项及以后;
+  # 当输入串与词条编码不一致的时候, 则隐藏这个词条出现在候选菜单里
+  engine/processors/+:
+    - lua_processor@cold_word_drop_processor # 词条隐藏、降频
+
+  engine/filters/+:
+    - lua_filter@cold_word_drop_filter # 词条隐藏、降频
+
   # Lua 配置: 降低部分英语单词在候选项的位置
   # 详细介绍 https://dvel.me/posts/make-rime-en-better/#短单词置顶的问题
   # 正常情况： 输入 rug 得到 「1.rug 2.如果 …… 」
