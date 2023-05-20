@@ -11,14 +11,14 @@
     "reload": "pnpm squirrel --reload",
     "squirrel": "/Library/Input\\ Methods/Squirrel.app/Contents/MacOS/Squirrel",
     "sync": "pnpm squirrel --sync",
-    "update": "git submodule update --remote && pnpm run link"
+    "update": "git submodule update --remote --rebase && pnpm i"
   },
   "devDependencies": {
-    "@u3u/eslint-config": "^1.4.0",
+    "@u3u/eslint-config": "^2.2.1",
     "@u3u/rime": "link:",
     "cac": "^6.7.14",
     "chalk": "^5.2.0",
-    "eslint": "^8.40.0",
+    "eslint": "^8.41.0",
     "globby": "^13.1.4"
   },
   "packageManager": "pnpm@8.4.0",
