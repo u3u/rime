@@ -11,7 +11,7 @@
     "reload": "pnpm squirrel --reload",
     "squirrel": "/Library/Input\\ Methods/Squirrel.app/Contents/MacOS/Squirrel",
     "sync": "pnpm squirrel --sync",
-    "update": "git submodule update --remote --rebase && pnpm i"
+    "update": "git submodule update --remote && pnpm i"
   },
   "devDependencies": {
     "@u3u/eslint-config": "^2.2.1",
