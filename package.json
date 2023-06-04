@@ -14,16 +14,16 @@
     "update": "git submodule update --remote && pnpm i"
   },
   "devDependencies": {
-    "@u3u/eslint-config": "^2.2.1",
+    "@u3u/eslint-config": "^2.2.3",
     "@u3u/rime": "link:",
     "cac": "^6.7.14",
     "chalk": "^5.2.0",
-    "eslint": "^8.41.0",
+    "eslint": "^8.42.0",
     "globby": "^13.1.4"
   },
-  "packageManager": "pnpm@8.4.0",
+  "packageManager": "pnpm@8.6.0",
   "engines": {
     "node": ">=18.0.0",
-    "pnpm": ">=8.4.0"
+    "pnpm": ">=8.6.0"
   }
 }
