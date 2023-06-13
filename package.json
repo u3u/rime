@@ -1,29 +1,21 @@
 {
   "name": "@u3u/rime",
   "private": true,
-  "bin": {
-    "symlinks": "./symlinks.mjs"
-  },
   "scripts": {
     "preinstall": "npx only-allow pnpm",
-    "link": "node symlinks.mjs",
-    "prepare": "pnpm run link",
+    "link": "npx lnk '*' '!README.md' '!LICENSE' '!custom_phrase.txt' --cwd rime-ice",
+    "prepare": "pnpm run link -y",
     "reload": "pnpm squirrel --reload",
     "squirrel": "/Library/Input\\ Methods/Squirrel.app/Contents/MacOS/Squirrel",
     "sync": "pnpm squirrel --sync",
     "update": "git submodule update --remote && pnpm i"
   },
   "devDependencies": {
-    "@u3u/eslint-config": "^2.2.3",
-    "@u3u/rime": "link:",
-    "cac": "^6.7.14",
-    "chalk": "^5.2.0",
-    "eslint": "^8.42.0",
-    "globby": "^13.1.4"
+    "symlnk-cli": "^1.0.1"
   },
-  "packageManager": "pnpm@8.6.0",
+  "packageManager": "pnpm@8.6.2",
   "engines": {
     "node": ">=18.0.0",
-    "pnpm": ">=8.6.0"
+    "pnpm": ">=8.6.2"
   }
 }
