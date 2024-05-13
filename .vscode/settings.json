@@ -27,11 +27,12 @@
     "node_modules": true,
     "opencc": true,
     "others": true,
+    "radical_pinyin.schema.yaml": true,
     "rime-ice": true,
     "rime.lua": true,
     "symbols*": true,
     "t9.schema.yaml": true,
     "user.yaml": true,
-    "weasel_style.yaml": true
+    "weasel*.yaml": true
   }
 }
