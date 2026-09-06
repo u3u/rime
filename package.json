@@ -13,9 +13,9 @@
   "devDependencies": {
     "symlnk-cli": "^1.0.1"
   },
-  "packageManager": "pnpm@9.1.1",
+  "packageManager": "pnpm@12.3.4",
   "engines": {
     "node": ">=20.13.1",
-    "pnpm": ">=9.1.1"
+    "pnpm": ">=12.3.4"
   }
 }
